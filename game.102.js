@@ -197,51 +197,6 @@ function startGame() {
     Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
     Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
     Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
-    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
     Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100], 500,500,Math.floor(Math.random() * 500) + 200);
     myGameArea.start();
 }
@@ -250,7 +205,7 @@ var myGameArea = {
     start : function() {
       //make the canvas and stuff.
         this.canvas.width = 1366;
-        this.canvas.height = 768;
+        this.canvas.height = 800;
         this.context = this.canvas.getContext("2d");
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
         this.interval = setInterval(updateGameArea, 20);
