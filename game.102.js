@@ -7,7 +7,47 @@ function startGame() {
     wheelBehind = new wheel(601, 100,0, 25, "wheel.png",  "image");
     wheelAhead = new wheel(599, 100,0, 25, "wheel.png",  "image");
     car1 = new car(wheelAhead,wheelBehind, 70,50, "body.png","image");
-    terrain = new terrain([200,300,325,325,300,260,250,290,370,500,450,425,400,375,300,310,340,310,250,200,300,325,325,300,260,250,290,370,500,450,425,400,375,300,310,340,310,250,200,300,325,325,300,260,250,290,370,500,450,425,400,375,300,310,340,310,250,200,300,325,325,300,260,250,290,370,500,450,425,400,375,300,310,340,310,250,200,300,325,325,300,260,250,290,370,500,450,425,400,375,300,310,340,310,250,200,300,325,325,300,260,250,290,370,500,450,425,400,375,300,310,340,310,250,200,300,325,325,300,260,250,290,370,500,450,425,400,375,300,310,340,310,250,200,300,325,325,300,260,250,290,370,500,450,425,400,375,300,310,340,310,250], 150);
+    terrain = new terrain([
+    300,300,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100,
+    Math.floor(Math.random() * Math.floor(Math.random() * 500) + 250) + Math.floor(Math.random() * 250) + 100], 500,500,Math.floor(Math.random() * 500) + 200);
     myGameArea.start();
 }
 var myGameArea = {
@@ -65,7 +105,7 @@ function car(wheelAhead, wheelBehind, l1, l2, color, type)
   this.springY1P = 0;
 
   this.x = 320;
-  this.y = 100;
+  this.y = 230;
   this.xVel = 0;
   this.yVel = 0;
 
