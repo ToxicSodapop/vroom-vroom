@@ -249,8 +249,8 @@ var myGameArea = {
     canvas : document.createElement("canvas"),
     start : function() {
       //make the canvas and stuff.
-        this.canvas.width = 1200;
-        this.canvas.height = 800;
+        this.canvas.width = 1366;
+        this.canvas.height = 768;
         this.context = this.canvas.getContext("2d");
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
         this.interval = setInterval(updateGameArea, 20);
@@ -388,10 +388,12 @@ function car(wheelAhead, wheelBehind, l1, l2, color, type)
     if (myGameArea.keys && myGameArea.keys[39])
     {
       this.wheelBehind.angImp += 0.1;
+      this.wheelFront.angImp += 0.1;
     }
     if (myGameArea.keys && myGameArea.keys[37])
     {
       this.wheelBehind.angImp -= 0.1;
+       this.wheelFront.angImp -= 0.1;
     }
   }
   /*this.setWheels = function()
