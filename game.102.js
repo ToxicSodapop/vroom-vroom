@@ -204,7 +204,7 @@ var myGameArea = {
     canvas : document.createElement("canvas"),
     start : function() {
       //make the canvas and stuff.
-        this.canvas.width = 1366;
+        this.canvas.width = 1200;
         this.canvas.height = 800;
         this.context = this.canvas.getContext("2d");
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
